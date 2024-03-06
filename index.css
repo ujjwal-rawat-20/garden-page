@@ -17,8 +17,8 @@ body {
 }
 
 .left-container {
-    width: 17em;
-    height: 34em;
+    width: 13em;
+    height: 28em;
     background-color: #0a5b5e;
     border-bottom-right-radius: 260px;
     display: inline-block;
@@ -27,14 +27,14 @@ body {
 .left-container img:nth-child(1) {
     position: relative;
     top: 56px;
-    left: 115px
+    left: 95px;
 }
 
 
 .left-container img:nth-child(2) {
     position: relative;
     top: 37px;
-    left: 86px;
+    left: 66px;
 }
 
 .bottom-container {
@@ -66,7 +66,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .navbar a {
@@ -74,20 +74,21 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 13px 24px;
+    padding: 15px 17px;
     text-decoration: none;
-    font-size: 31px;
+    font-size: 26px;
 }
 
 
 .info {
-    margin-top: 73px;
+    margin-top: 47px;
     font-size: 38px;
 }
 
 .info #garden-heading {
     font-weight: bold;
-    font-size: 39px;
+    font-size: 34px;
+    padding-top: 12px;
 }
 
 .info #line hr{
@@ -102,12 +103,12 @@ body {
 
 .first-img-container {
     outline: none;
-    width: 353px;
+    width: 285px;
     height: 49%;
     display: inline-block;
     position: relative;
-    bottom: 323px;
-    left: 128px;
+    bottom: 308px;
+    left: 100px;
     background-color: #ccc;
     border-top-left-radius: 172px;
     border-top-right-radius: 171px;
@@ -115,31 +116,31 @@ body {
 }
 
 .first-img-container img{
-    height: 100%;
+    height: 97%;
     position: relative;
     top: 48px;
     right: 56px;
-    width: 635px;   
+    width: 573px;  
 }
 
 .main-heading-container {
     width: 43%;
     float: right;
     position: relative;
-    bottom: 336px;
-    right: 13%;
+    bottom: 300px;
+    right: 8%;
 }
 
 .main-heading-container pre {
-    font-size: 54px;
+    font-size: 45px;
     font-weight: bolder;
     height: 147px;
 }
 
 .para-container {
     width: 50%;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: -10px;
 }
 
 .main-heading-container button {
@@ -156,10 +157,10 @@ body {
 
 .shop-plants-container {
     float: right;
-    width: 300px;
+    width: 17%;
     position: relative;
-    right: 200px;
-    bottom: 232px;
+    right: 72px;
+    bottom: 232px
 }
 
 .shop-plants-one {
@@ -173,7 +174,7 @@ body {
 }
 
 .shop-plants-container .shop-plants-two, .shop-plants-three, .shop-plants-four {
-    padding: 13px;
+    padding: 10px;
     background-color: lightgray;
     color: black;
     margin: 8px 0;
@@ -186,8 +187,8 @@ body {
     background-color: #c6cdc6;
     width: 67%;
     position: relative;
-    bottom: 303px;
-    left: 126px;
+    bottom: 266px;
+    left: 98px;
     display: inline-block;
     height: 157px;
 }
@@ -195,9 +196,13 @@ body {
 .discount-container .discount-img-cont-1, .discount-img-cont-2, .discount-img-cont-3 {
     float: right;
     position: relative;
-    bottom: 173px;
+    bottom: 123px;
     margin: 0 20px;
-    right: 73px;
+    right: 6px;
+}
+
+.discount-container .discount-img-cont-1 img, .discount-img-cont-2 img, .discount-img-cont-3 img {
+    width: 200px;
 }
 
 .discount-heading-container {
@@ -208,19 +213,19 @@ body {
 }
 
 .discount-heading-container h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin: 4px 0;
 }
 
 .discount-heading-container p {
-    font-size: 17px;
+    font-size: 11px;
 }
 
 .contact-container {
     position: absolute;
-    right: 196px;
-    bottom: 122px;
-    font-size: 24px;
+    right: 185px;
+    bottom: 106px;
+    font-size: 21px;
 }
 
 .contact-container p {
