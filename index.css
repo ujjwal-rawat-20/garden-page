@@ -18,7 +18,7 @@ body {
 
 .left-container {
     width: 13em;
-    height: 28em;
+    height: 24em;
     background-color: #0a5b5e;
     border-bottom-right-radius: 260px;
     display: inline-block;
@@ -26,20 +26,19 @@ body {
 
 .left-container img:nth-child(1) {
     position: relative;
-    top: 56px;
-    left: 95px;
+    top: 22px;
+    left: 80px;
 }
 
 
 .left-container img:nth-child(2) {
     position: relative;
-    top: 37px;
-    left: 66px;
+    top: 4px;
+    left: 53px;
 }
 
 .bottom-container {
     width: 20%;
-    height: 201px;
     text-align: right;
     position: fixed;
     float: right;
@@ -48,18 +47,13 @@ body {
 }
 
 .bottom-container img{
-    /* position: relative;
-    bottom: 330px;
-    left: 126px; */
-    width: 321px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar {
     width: 80%;
-    height: 200px;
-    /* border: 1px solid black; */
-    /* display: inline-block; */
+    padding: 19px 0px;
     float: right;
 }
 
@@ -74,40 +68,39 @@ body {
     display: block;
     color: black;
     text-align: center;
-    padding: 15px 17px;
+    padding: 22px 17px;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 
 .info {
-    margin-top: 47px;
     font-size: 38px;
 }
 
 .info #garden-heading {
     font-weight: bold;
-    font-size: 34px;
-    padding-top: 12px;
+    font-size: 31px;
+    padding-top: 17px;
 }
 
 .info #line hr{
-    width: 356px;
-    height: 4px;
+    width: 261px;
+    height: 3px;
     color: wbl;
     color: black;
     background-color: black;
-    margin-top: 21px;
+    margin-top: 15px;
 }
 
 
 .first-img-container {
     outline: none;
-    width: 285px;
+    width: 241px;
     height: 49%;
     display: inline-block;
     position: relative;
-    bottom: 308px;
+    bottom: 279px;
     left: 100px;
     background-color: #ccc;
     border-top-left-radius: 172px;
@@ -118,34 +111,34 @@ body {
 .first-img-container img{
     height: 97%;
     position: relative;
-    top: 48px;
-    right: 56px;
-    width: 573px;  
+    top: 39px;
+    right: 57px;
+    width: 466px;  
 }
 
 .main-heading-container {
     width: 43%;
     float: right;
     position: relative;
-    bottom: 300px;
+    bottom: 290px;
     right: 8%;
 }
 
 .main-heading-container pre {
-    font-size: 45px;
+    font-size: 38px;
     font-weight: bolder;
     height: 147px;
 }
 
 .para-container {
     width: 50%;
-    font-size: 18px;
-    margin-top: -10px;
+    font-size: 15px;
+    margin-top: -23px;
 }
 
 .main-heading-container button {
-    width: 166px;
-    padding: 9px;
+    width: 142px;
+    padding: 5px;
     margin: 20px 0;
     background-color: #0a5b5e;
     color: white;
@@ -167,18 +160,18 @@ body {
     padding: 1px;
     text-align: center;
     background-color: green;
-    font-size: 28px;
+    font-size: 23px;
     color: white;
     font-weight: bold;
     background-color: #0a5b5e;
 }
 
 .shop-plants-container .shop-plants-two, .shop-plants-three, .shop-plants-four {
-    padding: 10px;
+    padding: 4px;
     background-color: lightgray;
     color: black;
-    margin: 8px 0;
-    font-size: 25px;
+    margin: 5px 0;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
@@ -187,10 +180,10 @@ body {
     background-color: #c6cdc6;
     width: 67%;
     position: relative;
-    bottom: 266px;
+    bottom: 216px;
     left: 98px;
     display: inline-block;
-    height: 157px;
+    height: 121px;
 }
 
 .discount-container .discount-img-cont-1, .discount-img-cont-2, .discount-img-cont-3 {
@@ -202,12 +195,12 @@ body {
 }
 
 .discount-container .discount-img-cont-1 img, .discount-img-cont-2 img, .discount-img-cont-3 img {
-    width: 200px;
+    width: 160px;
 }
 
 .discount-heading-container {
     float: left;
-    width: 22%;
+    width: 23%;
     margin-left: 40px;
     margin-top: 13px;
 }
@@ -223,9 +216,9 @@ body {
 
 .contact-container {
     position: absolute;
-    right: 185px;
+    right: 156px;
     bottom: 106px;
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .contact-container p {
